@@ -1,13 +1,14 @@
-import { BrowserRouter, Routes, Route } from "react"
-import Home from './pages/Home'
-import Sobre from './pages/Sobre'
-import Contato from './pages/Contato'
+import { BrowserRouter, Routes, Route } from "react";
+import Home from './pages/Home';
+import Sobre from './pages/Sobre';
+import Contato from './pages/Contato';
 
 
 
 function App() {
   return (
     <div>
+      <h1>teste</h1>
       <BrowserRouter>
 
         <Routes>
@@ -22,22 +23,5 @@ function App() {
 
 }
 export default App
-
-
-
-// import Titulo from "./Titulo"
-
-// function App() {
-//   return (
-//     <div>
-//       <Titulo color="red" />
-//       <Titulo color="blue" />
-//       <Titulo color="green" />
-//       <Titulo color="pink" />
-//     </div>
-//   )
-
-// }
-// export default App
 
 
